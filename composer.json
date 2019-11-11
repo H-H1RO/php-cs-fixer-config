@@ -1,0 +1,17 @@
+{
+    "name": "h1r0-2525/php-cs-fixer-config",
+    "description": "PHP-CS-Fixer to PHP7 and Laravel5",
+    "license": "MIT",
+    "require": {},
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "Joolen\\CS\\": "src/"
+        }
+    },
+    "scripts": {
+        "cs": "php-cs-fixer"
+    }
+}

@@ -1,0 +1,11 @@
+<?php
+
+use Joolen\CS\Config\Rule;
+use Joolen\CS\Finder\Finder;
+
+$homeDir = getenv('HOME');
+$cacheDir = getenv('CIRCLECI') ? "$homeDir/.php_cs_fixer" : __DIR__;
+
+return Rule::create()
+    ->setFinder(Finder::create()->in(__DIR__))
+    ->setCacheFile("$cacheDir/.php_cs.cache");
