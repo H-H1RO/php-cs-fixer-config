@@ -32,6 +32,14 @@ class Config extends \PhpCsFixer\Config
     }
 
     /**
+     * {@inheritDoc}
+     */
+    public function setRules(array $rules)
+    {
+        return parent::setRules(array_merge(static::RULES, $rules));
+    }
+
+    /**
      * @return static
      */
     public static function create()
