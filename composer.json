@@ -3,7 +3,7 @@
     "description": "PHP-CS-Fixer to PHP7 and Laravel5",
     "license": "MIT",
     "require": {
-        "php": ">=7.1",
+        "php": ">=7.2",
         "friendsofphp/php-cs-fixer": "^2.16"
     },
     "require-dev": {
