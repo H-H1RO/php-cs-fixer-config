@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Joolen\CS\Finder;
+namespace H1r0\CS\Finder;
 
 class Laravel5Finder extends Finder
 {
