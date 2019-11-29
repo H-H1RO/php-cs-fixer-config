@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Joolen\CS\Config;
+namespace H1r0\CS\Config;
 
 class Config extends \PhpCsFixer\Config
 {
@@ -32,7 +32,7 @@ class Config extends \PhpCsFixer\Config
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function setRules(array $rules)
     {

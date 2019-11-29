@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Joolen\CS\Config;
+namespace H1r0\CS\Config;
 
 class Rule extends Config
 {
