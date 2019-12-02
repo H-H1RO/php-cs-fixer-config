@@ -4,7 +4,7 @@ references:
 
     test: &run_phpunit
       name: run phpunit
-      command: phpdbg -qrr vendor/bin/phpunit --coverage-html /tmp/build/coverage-report test
+      command: phpdbg -qrr vendor/bin/phpunit --coverage-html /tmp/build/coverage-report
 
     install_php_extensions: &install_php_extensions
       name: run install_php_extensions
