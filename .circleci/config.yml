@@ -4,7 +4,7 @@ references:
 
     test: &run_phpunit
       name: run phpunit
-      command: vendor/bin/phpunit test
+      command: phpdbg -qrr vendor/bin/phpunit --coverage-html /tmp/build/coverage-report
 
     install_php_extensions: &install_php_extensions
       name: run install_php_extensions
@@ -33,10 +33,7 @@ references:
       - save_cache: *save_composer_install
       - run: *run_phpunit
       - store_artifacts:
-          path: /tmp/coverage/html
-          destination: .
-
-
+          path: /tmp/build/coverage-report
 
 version: 2.1
 
