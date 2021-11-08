@@ -1,5 +1,5 @@
 # PHP-CS-Fixer Config
-![License](https://poser.pugx.org/pedrotroller/php-cs-custom-fixer/license) ![php-version](https://img.shields.io/packagist/php-v/h1r0-2525/php-cs-fixer-config) ![Version](https://img.shields.io/packagist/v/h1r0-2525/php-cs-fixer-config) [![CircleCI](https://circleci.com/gh/h1r0-2525/php-cs-fixer-config.svg?style=shield)](https://circleci.com/gh/h1r0-2525/php-cs-fixer-config)
+![License](https://poser.pugx.org/pedrotroller/php-cs-custom-fixer/license) ![php-version](https://img.shields.io/packagist/php-v/h1r0-2525/php-cs-fixer-config) ![Version](https://img.shields.io/packagist/v/h1r0-2525/php-cs-fixer-config) [![CircleCI](https://circleci.com/gh/H-H1RO/php-cs-fixer-config.svg?style=shield)](https://circleci.com/gh/H-H1RO/php-cs-fixer-config)
 
 ## Installation
 ```
